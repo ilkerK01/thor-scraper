@@ -20,7 +20,6 @@ import (
 var (
 	appLogger    *log.Logger
 	reportLogger *log.Logger
-	// Tor Proxy ayarları
 	proxyIP   = "127.0.0.1"
 	proxyPort = "9150"
 	proxyAddr = proxyIP + ":" + proxyPort
